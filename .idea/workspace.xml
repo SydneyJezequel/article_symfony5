@@ -205,7 +205,7 @@
       <updated>1661528643972</updated>
       <workItem from="1661528647018" duration="3000" />
       <workItem from="1661753870994" duration="13388000" />
-      <workItem from="1661775473167" duration="8404000" />
+      <workItem from="1661775473167" duration="8821000" />
     </task>
     <task id="LOCAL-00001" summary="maj premier projet Symfony">
       <created>1661757938458</created>
@@ -228,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661785791344</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="maj premier projet Symfony">
+      <created>1661786193261</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1661786193261</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

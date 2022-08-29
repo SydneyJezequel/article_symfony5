@@ -1,0 +1,25 @@
+{% extends 'base.html.twig' %}
+    {% block head %}
+    <meta charset="UTF-8">
+    <title>
+        {% block title %}
+            app_home
+        {% endblock %}
+    </title>
+    {% block stylesheets %}
+        {{ encore_entry_link_tags('app') }}
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@5.1.3/dist/united/bootstrap.min.css">
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@5.1.3/dist/united/variables.scss">
+    {% endblock %}
+    {% block javascripts%}
+        {{ encore_entry_script_tags('app') }}
+    {% endblock %}
+{% endblock%}
+
+
+    {% block body %}
+<p>{{ "now" | date("Y") }}</p>
+<div>Copyright : JezequelSydnusCompany</div>
+    {% endblock %}
+
+
